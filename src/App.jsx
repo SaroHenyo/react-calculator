@@ -271,7 +271,9 @@ function App() {
               <div
                 className="button
                             fs-5 fw-bold text-bg-dark text-center rounded-circle"
-                onclick="clickNumber('.')"
+                onClick={() => {
+                  getNumber(".");
+                }}
               >
                 .
               </div>
